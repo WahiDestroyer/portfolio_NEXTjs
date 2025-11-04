@@ -33,7 +33,11 @@ const About = () => {
       <div className="flex flex-col items-center justify-center ">
         <div className=" 2da flex items-center justify-between gap-50">
           <div className="design relative">
-            <Image src={des} alt="design" className="absolute bottom-6 -left-10 z-10" />
+            <Image
+              src={des}
+              alt="design"
+              className="absolute bottom-6 -left-10 z-10"
+            />
             <h4 className="font-mont text-2xl font-bold text-black">DESIGN</h4>
             <p className="font-light text-sm font-sans max-w-[430px]">
               I can design the site based on your needs and suggestions. I can
@@ -71,9 +75,9 @@ const About = () => {
         </div>
         <Image src={sep} alt="seperate" className="my-25" />
       </div>
-      <Using/>
-      <Learning/>
-      <Other/>
+      <Using />
+      <Learning />
+      <Other />
     </section>
   );
 };

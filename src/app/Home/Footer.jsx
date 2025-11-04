@@ -6,13 +6,15 @@ import face from '../../../public/images/footer/face.png';
 import link from '../../../public/images/footer/link.png';
 import ins from '../../../public/images/footer/ins.png';
 import email from '../../../public/images/footer/email.png';
+import Navbar from './Navbar';
 
 const Footer = () => {
   return (
     <footer className='bg-black py-15 flex flex-col items-center justify-center'>
         <div className='flex justify-center items-center flex-col pb-11'>
+            <Link href={<Navbar/>} className='flex flex-col items-center'>
             <MdKeyboardDoubleArrowUp className='text-white'/>
-            <p className='font-mont text-white px-4 font-bold text-base'>BACK TO TOP</p>
+            <p className='font-mont text-white px-4 font-bold text-base'>BACK TO TOP</p></Link>
         </div>
         <div>
             <ul className='grid grid-cols-4 gap-7'>

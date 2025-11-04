@@ -4,3 +4,11 @@
   margin: auto;
   inline-padding: 2rem;
 }
+
+@theme{
+  --font-ral: "Raleway", sans-serif;
+  --font-mont: "Montserrat", sans-serif;
+  --font-sans: "Open Sans", sans-serif;
+  --color-ds: #C4C4C4;
+  --color-sai: #909090;
+}

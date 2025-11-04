@@ -1,12 +1,12 @@
+// Lang.jsx - Updated with responsive classes
 import React from 'react'
-
 import Image from 'next/image'
 
 const Lang = ({sobi, title}) => {
   return (
     <div className='flex flex-col justify-center items-center'>
-      <Image src={sobi} alt='Language'/>
-      <p className='font-mont text-2xl text-black pt-4 uppercase tracking-widest'>{title}</p>
+      <Image src={sobi} alt='Language' className='w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20'/>
+      <p className='font-mont text-sm sm:text-lg md:text-xl lg:text-2xl text-black pt-2 sm:pt-4 uppercase tracking-widest text-center'>{title}</p>
     </div>
   )
 }

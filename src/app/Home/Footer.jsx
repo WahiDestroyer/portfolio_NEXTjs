@@ -17,8 +17,9 @@ const Footer = () => {
   };
 
   return (
-    <footer className='bg-black py-8 sm:py-12 lg:py-15 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8'>
-        <div className='flex justify-center items-center flex-col pb-8 sm:pb-10 lg:pb-11'>
+    <footer className='bg-black'>
+    <div data-aos='zoom-in-up' className=' py-8 sm:py-12 lg:py-15 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8'>
+        <div  className='flex justify-center items-center flex-col pb-8 sm:pb-10 lg:pb-11'>
             <button 
               onClick={scrollToTop}
               className='flex flex-col items-center hover:opacity-80 transition-opacity duration-300'
@@ -56,6 +57,7 @@ const Footer = () => {
                 @2020 Tomasz Gajda All Rights Reserved.
             </p>
         </div>
+    </div>
     </footer>
   )
 }

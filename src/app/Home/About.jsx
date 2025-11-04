@@ -32,51 +32,64 @@ const About = () => {
         <Image src={sep} alt="seperate" data-aos="zoom-in" className="my-16 sm:my-25 w-3/4 sm:w-auto" />
       </div>
       {/* 2nd section */}
-      <div className="flex flex-col items-center justify-center w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 sm:gap-12 lg:gap-50 w-full max-w-6xl">
-          <div className="design relative flex flex-col items-center lg:items-start text-center lg:text-left w-full lg:w-1/2 px-4">
-            <Image
-              src={des}
-              alt="design"
-              className="absolute bottom-6 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
-            />
-            <h4 className="font-mont text-xl sm:text-2xl font-bold text-black mt-8 sm:mt-0">DESIGN</h4>
-            <p className="font-light text-xs sm:text-sm font-sans max-w-full sm:max-w-[430px] mt-2">
-              I can design the site based on your needs and suggestions. I can
-              also design the site from scratch and consult you during the job.
-            </p>
-          </div>
-          <div className="dev relative flex flex-col items-center lg:items-start text-center lg:text-left w-full lg:w-1/2 px-4">
-            <Image
-              src={dev}
-              alt="dev"
-              className="absolute bottom-6 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
-            />
-            <h4 className="font-mont text-xl sm:text-2xl font-bold text-black mt-8 sm:mt-0">
-              DEVELOPMENT
-            </h4>
-            <p className="font-light text-xs sm:text-sm font-sans max-w-full sm:max-w-[430px] mt-2">
-              I can design the site based on your needs and suggestions. I can
-              also design the site from scratch and consult you during the job.
-            </p>
-          </div>
-        </div>
-        <div className="main relative mt-16 sm:mt-25 flex flex-col items-center lg:items-start text-center lg:text-left w-full max-w-2xl px-4">
-          <Image
-            src={main}
-            alt="main"
-            className="absolute bottom-6 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
-          />
-          <h4 className="font-mont text-xl sm:text-2xl font-bold text-black mt-8 sm:mt-0">
-            MAINTENANCE
-          </h4>
-          <p className="font-light text-xs sm:text-sm font-sans max-w-full sm:max-w-[430px] mt-2">
-            I can design the site based on your needs and suggestions. I can
-            also design the site from scratch and consult you during the job.
-          </p>
-        </div>
-        <Image src={sep} alt="seperate" data-aos="zoom-in" className="my-16 sm:my-25 w-3/4 sm:w-auto" />
-      </div>
+<div className="flex flex-col items-center justify-center w-full">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 max-w-5xl w-full px-4">
+    {/* DESIGN */}
+    <div className="design relative flex flex-col items-center lg:items-start text-center lg:text-left">
+      <Image
+        src={des}
+        alt="design"
+        className="absolute bottom-6 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
+      />
+      <h4 className="font-mont text-xl sm:text-2xl font-bold text-black mt-8 sm:mt-0">
+        DESIGN
+      </h4>
+      <p className="font-light text-xs sm:text-sm font-sans max-w-full sm:max-w-[430px] mt-2">
+        I can design the site based on your needs and suggestions. I can
+        also design the site from scratch and consult you during the job.
+      </p>
+    </div>
+
+    {/* DEVELOPMENT */}
+    <div className="dev relative flex flex-col items-center lg:items-start text-center lg:text-left">
+      <Image
+        src={dev}
+        alt="dev"
+        className="absolute bottom-6 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
+      />
+      <h4 className="font-mont text-xl sm:text-2xl font-bold text-black mt-8 sm:mt-0">
+        DEVELOPMENT
+      </h4>
+      <p className="font-light text-xs sm:text-sm font-sans max-w-full sm:max-w-[430px] mt-2">
+        I can design the site based on your needs and suggestions. I can
+        also design the site from scratch and consult you during the job.
+      </p>
+    </div>
+  </div>
+
+  {/* MAINTENANCE - CENTERED UNDER BOTH */}
+  <div className="main relative mt-16 flex flex-col items-center text-center w-full max-w-[430px] px-4">
+    <Image
+      src={main}
+      alt="main"
+      className="absolute bottom-6 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
+    />
+    <h4 className="font-mont text-xl sm:text-2xl font-bold text-black mt-8 sm:mt-0">
+      MAINTENANCE
+    </h4>
+    <p className="font-light text-xs sm:text-sm font-sans mt-2">
+      I can design the site based on your needs and suggestions. I can
+      also design the site from scratch and consult you during the job.
+    </p>
+  </div>
+
+  <Image
+    src={sep}
+    alt="seperate"
+    data-aos="zoom-in"
+    className="my-16 sm:my-25 w-3/4 sm:w-auto"
+  />
+</div>
       <Using />
       <Learning />
       <Other />

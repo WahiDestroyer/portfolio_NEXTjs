@@ -90,9 +90,11 @@ const About = () => {
     className="my-16 sm:my-25 w-3/4 sm:w-auto"
   />
 </div>
-      <Using />
+      <div id='skills'>
+        <Using />
       <Learning />
       <Other />
+      </div>
     </div></section>
   );
 };

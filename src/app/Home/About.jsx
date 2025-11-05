@@ -13,7 +13,7 @@ import Other from "../components/Other";
 const About = () => {
   return (
     <section className="bg-[#FAFAFA]">
-    <div className="container flex flex-col items-center justify-center  py-20 md:py-40 px-4 sm:px-6 lg:px-8">
+    <div className="container flex flex-col items-center justify-center py-20 md:pb-40 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col items-center justify-center w-full">
         <h2 data-aos="fade-down" data-aos-duration="2500" className="font-mont font-bold text-xl sm:text-2xl md:text-3xl py-3 sm:py-4 px-4 sm:px-6 text-black tracking-widest outline-4 outline-offset-2 hover:bg-black hover:text-white transition-all duration-400 hover:outline-black mb-12 sm:mb-18 text-center">
           ABOUT ME
@@ -35,7 +35,7 @@ const About = () => {
 <div className="flex flex-col items-center justify-center w-full">
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 max-w-5xl w-full px-4">
     {/* DESIGN */}
-    <div className="design relative flex flex-col items-center lg:items-start text-center lg:text-left">
+    <div data-aos="fade-right" className="design relative flex flex-col items-center lg:items-start text-center lg:text-left">
       <Image
         src={des}
         alt="design"
@@ -51,7 +51,7 @@ const About = () => {
     </div>
 
     {/* DEVELOPMENT */}
-    <div className="dev relative flex flex-col items-center lg:items-start text-center lg:text-left">
+    <div data-aos="fade-left" className="dev relative flex flex-col items-center lg:items-start text-center lg:text-left">
       <Image
         src={dev}
         alt="dev"
@@ -67,12 +67,12 @@ const About = () => {
     </div>
   </div>
 
-  {/* MAINTENANCE - CENTERED UNDER BOTH */}
-  <div className="main relative mt-16 flex flex-col items-center text-center w-full max-w-[430px] px-4">
+  {/* MAINTENANCE */}
+  <div data-aos="fade-up" className="main relative mt-16 flex flex-col items-center w-full max-w-[430px] px-4">
     <Image
       src={main}
       alt="main"
-      className="absolute bottom-6 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
+      className="absolute bottom-12 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
     />
     <h4 className="font-mont text-xl sm:text-2xl font-bold text-black mt-8 sm:mt-0">
       MAINTENANCE

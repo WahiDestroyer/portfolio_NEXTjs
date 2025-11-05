@@ -13,20 +13,20 @@ import figma from "../../../public/images/about/using/figma.png"
 const Using = () => {
   return (
     <div className='flex flex-col items-center w-full px-4 sm:px-6 lg:px-8'>
-      <h2 className="font-mont font-bold text-xl sm:text-2xl md:text-3xl py-3 sm:py-4 px-6 sm:px-10 text-black tracking-wider outline-4 outline-offset-2 hover:bg-black hover:text-white transition-all duration-400 hover:outline-black text-center">
+      <h2 data-aos="fade-down" className="font-mont font-bold text-xl sm:text-2xl md:text-3xl py-3 sm:py-4 px-6 sm:px-10 text-black tracking-wider outline-4 outline-offset-2 hover:bg-black hover:text-white transition-all duration-400 hover:outline-black text-center">
           SKILLS
         </h2>
-        <div className='w-full'>
-            <h3 className='font-mont text-xl sm:text-2xl md:text-3xl font-bold text-black tracking-wider pb-12 sm:pb-19 uppercase mt-12 sm:mt-18 text-center'>USING NOW:</h3>
+        <div  className='w-full'>
+            <h3 data-aos="fade-in" className='font-mont text-xl sm:text-2xl md:text-3xl font-bold text-black tracking-wider pb-12 sm:pb-19 uppercase mt-12 sm:mt-18 text-center'>USING NOW:</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 sm:gap-16 lg:gap-28">
-          <Lang sobi={html} title="html5"/>
-          <Lang sobi={css} title="css"/>
-          <Lang sobi={sass} title="sass"/>
-          <Lang sobi={js} title="js"/>
-          <Lang sobi={react} title="react"/>
-          <Lang sobi={boot} title="boot"/>
-          <Lang sobi={git} title="git"/>
-          <Lang sobi={figma} title="figma"/>
+          <Lang somoy={1000} sobi={html} title="html5"/>
+          <Lang somoy={2000} sobi={css} title="css"/>
+          <Lang somoy={2500} sobi={sass} title="sass"/>
+          <Lang somoy={3000} sobi={js} title="js"/>
+          <Lang somoy={1000} sobi={react} title="react"/>
+          <Lang somoy={2000} sobi={boot} title="boot"/>
+          <Lang somoy={2500} sobi={git} title="git"/>
+          <Lang somoy={3000}  sobi={figma} title="figma"/>
         </div>
         </div>
     </div>

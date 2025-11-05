@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 2000, once: true });
+    Aos.init({ duration: 1500, once: false });
   }, []);
   return (
     <>

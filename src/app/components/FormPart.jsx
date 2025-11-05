@@ -55,7 +55,7 @@ const FormPart = () => {
         {emailErr && (
           <p className="text-red-600 font-semibold font-sans">{emailErr}</p>
         )}
-        <input
+        <input 
           onChange={(e) => {
             setNumber(e.target.value);
             setNumberErr("");

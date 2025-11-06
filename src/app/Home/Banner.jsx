@@ -14,9 +14,9 @@ const Banner = () => {
         <div className="order-2 lg:order-1 w-full lg:w-auto">
           <div className="pb-8 sm:pb-12 lg:pb-56">
             <Link href="/">
-              <Image 
-                src={logo} 
-                alt="logo" 
+              <Image
+                src={logo}
+                alt="logo"
                 className="w-32 h-auto sm:w-40 lg:w-auto"
                 width={160}
                 height={60}
@@ -36,27 +36,27 @@ const Banner = () => {
           </div>
           <div className="flex gap-4 sm:gap-6 items-center justify-center lg:justify-start">
             <Link href="#" className="flex items-center justify-center">
-              <Image 
-                src={at} 
-                alt="at" 
+              <Image
+                src={at}
+                alt="at"
                 className="bg-ds p-2 sm:p-2.5 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-14 object-contain"
                 width={64}
                 height={56}
               />
             </Link>
             <Link href="#" className="flex items-center justify-center">
-              <Image 
-                src={git} 
-                alt="git" 
+              <Image
+                src={git}
+                alt="git"
                 className="bg-ds p-2 sm:p-2.5 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-14 object-contain"
                 width={64}
                 height={56}
               />
             </Link>
             <Link href="#" className="flex items-center justify-center">
-              <Image 
-                src={linkedin} 
-                alt="linkedin" 
+              <Image
+                src={linkedin}
+                alt="linkedin"
                 className="bg-ds p-2 sm:p-2.5 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-14 object-contain"
                 width={64}
                 height={56}
@@ -65,9 +65,9 @@ const Banner = () => {
           </div>
         </div>
         <div className="order-1 lg:order-2 mb-8 lg:mb-0">
-          <Image 
-            src={man} 
-            alt="man" 
+          <Image
+            src={man}
+            alt="man"
             className="w-64 h-auto sm:w-80 lg:w-full max-w-md lg:max-w-none"
             width={500}
             height={600}
